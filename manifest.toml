@@ -18,7 +18,7 @@ website = "https://silex.me/"
 demo = "https://v3.silex.me/"
 admindoc = "https://docs.silex.me/en/home"
 userdoc = "https://docs.silex.me/en/home"
-code = "https://github.com/silexlabs/silex-platform"
+code = "https://github.com/silexlabs/silex"
 
 [integration]
 yunohost = '>= 11.2.30'
@@ -39,7 +39,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/silex-platform"
+    default = "/silex"
 
     [install.init_main_permission]
     type = "group"
@@ -74,7 +74,7 @@ ram.runtime = "50M"
 
     [resources.sources]
         [resources.sources.main]
-        url = "https://github.com/silexlabs/silex-platform/archive/refs/tags/v1.0.169.tar.gz"
+        url = "https://github.com/silexlabs/Silex/archive/refs/tags/v3.0.0-alpha.181.tar.gz"
         sha256 = "a2a31204a345a766a047037bc09dbfb1bb614320d273faa54d2aaecf6ee022b4"
         autoupdate.strategy = "latest_github_tag"
 
