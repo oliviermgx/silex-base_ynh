@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "silex-platform"
-name = "Silex-Platform"
+id = "silex"
+name = "Silex"
 
 description.en = "Create websites directly in the browser without writing code."
 description.fr = "Créez des sites internet directement dans le navigateur sans écrire de code."
