@@ -45,11 +45,11 @@ yunohost service add "$app" --description="Silex-Platform web app Service" --log
 #=================================================
 # INSTALL APP
 #=================================================
-ynh_script_progression "Installing $app..."
+#ynh_script_progression "Installing $app..."
 
-pushd $install_dir
-  ynh_exec_as_app npm run build
-popd
+#pushd $install_dir
+#  ynh_exec_as_app npm run build
+#popd
 
 #=================================================
 # START SYSTEMD SERVICE

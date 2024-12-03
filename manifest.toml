@@ -74,7 +74,7 @@ ram.runtime = "50M"
 
     [resources.sources]
         [resources.sources.main]
-        url = "https://github.com/silexlabs/Silex/archive/refs/tags/v3.0.0-alpha.181.tar.gz"
+        url = "https://github.com/oliviermgx/Silex/archive/refs/heads/dev.zip"
         sha256 = "dab3f7196043f6c03aa183a95933b4d7342e0e335e588e5604d326ebeb940a15"
         autoupdate.strategy = "latest_github_tag"
 
