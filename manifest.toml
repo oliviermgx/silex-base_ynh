@@ -75,7 +75,7 @@ ram.runtime = "50M"
     [resources.sources]
         [resources.sources.main]
         url = "https://github.com/oliviermgx/Silex/archive/refs/heads/dev.zip"
-        sha256 = "c31095b25d708300766a06ed6fd7e3ced93e6f604c1af79d97c2b005bd731afa"
+        sha256 = "9ef36deb00d425e90bf4f7a43eabaef5f57412b5a7a37fd2a6843dc34aa083c8"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
