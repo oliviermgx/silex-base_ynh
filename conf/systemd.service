@@ -17,6 +17,7 @@ WorkingDirectory=__INSTALL_DIR__/
 # Environment='SILEX_URL="$domain$path"'
 Environment='GITLAB_CLIENT_ID="$gitlab_id"'
 Environment='GITLAB_CLIENT_SECRET="$gitlab_secret"'
+Environment='SILEX_SERVER_CONFIG=__INSTALL_DIR__/.local.silex.js'
 ExecStart=__NODEJS_DIR__/npm start
 ###########
 
