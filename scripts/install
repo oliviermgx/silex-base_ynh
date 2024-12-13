@@ -8,6 +8,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Installing dependencies..."
 
 ynh_nodejs_install
+ynh_exec_warn_less npm i npm-run-all
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
