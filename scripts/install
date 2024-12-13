@@ -8,7 +8,6 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Installing dependencies..."
 
 ynh_nodejs_install
-ynh_exec_as_app npm install npm-run-all --save-dev
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -52,7 +51,8 @@ yunohost service add "$app" --description="Silex-Platform web app Service" --log
 ynh_script_progression "Installing $app..."
 
 pushd $install_dir
-   ynh_exec_as_app npm run build
+    ynh_exec_as_app npm install npm-run-all --save-dev
+    ynh_exec_as_app npm run build
 popd
 
 #=================================================
